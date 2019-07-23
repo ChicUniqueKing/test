@@ -1,0 +1,152 @@
+2019-07-22 10:47:32.746  INFO 14520 --- [main] c.d.DockerSpringbootDemoApplicationTests : Starting DockerSpringbootDemoApplicationTests on LAPTOP-441HS878 with PID 14520 (started by ChicUniqueKing in C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo)
+2019-07-22 10:47:32.748  INFO 14520 --- [main] c.d.DockerSpringbootDemoApplicationTests : No active profile set, falling back to default profiles: default
+2019-07-22 10:47:32.801  INFO 14520 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 10:47:32 CST 2019]; root of context hierarchy
+2019-07-22 10:47:34.383  INFO 14520 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 10:47:32 CST 2019]; root of context hierarchy
+2019-07-22 10:47:34.472  INFO 14520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.testLogstash()
+2019-07-22 10:47:34.475  INFO 14520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/docker]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.dockerTest()
+2019-07-22 10:47:34.497  INFO 14520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-22 10:47:34.497  INFO 14520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-22 10:47:34.558  INFO 14520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 10:47:34.558  INFO 14520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 10:47:34.630  INFO 14520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 10:47:34.843  INFO 14520 --- [main] c.d.DockerSpringbootDemoApplicationTests : Started DockerSpringbootDemoApplicationTests in 2.75 seconds (JVM running for 3.84)
+2019-07-22 10:47:34.938  INFO 14520 --- [Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 10:47:32 CST 2019]; root of context hierarchy
+2019-07-22 11:15:25.676  INFO 19812 --- [main] c.c.d.DockerSpringbootDemoApplication    : Starting DockerSpringbootDemoApplication on LAPTOP-441HS878 with PID 19812 (C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo\target\classes started by ChicUniqueKing in C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo)
+2019-07-22 11:15:25.687  INFO 19812 --- [main] c.c.d.DockerSpringbootDemoApplication    : No active profile set, falling back to default profiles: default
+2019-07-22 11:15:25.814  INFO 19812 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e9131d5: startup date [Mon Jul 22 11:15:25 CST 2019]; root of context hierarchy
+2019-07-22 11:15:27.607  INFO 19812 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9990 (http)
+2019-07-22 11:15:27.624  INFO 19812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-22 11:15:27.626  INFO 19812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-07-22 11:15:27.916  INFO 19812 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-22 11:15:27.917  INFO 19812 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2107 ms
+2019-07-22 11:15:28.127  INFO 19812 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-22 11:15:28.133  INFO 19812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-22 11:15:28.135  INFO 19812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-22 11:15:28.136  INFO 19812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-22 11:15:28.137  INFO 19812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-22 11:15:28.473  INFO 19812 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e9131d5: startup date [Mon Jul 22 11:15:25 CST 2019]; root of context hierarchy
+2019-07-22 11:15:28.558  INFO 19812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/docker]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.dockerTest()
+2019-07-22 11:15:28.560  INFO 19812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.testLogstash()
+2019-07-22 11:15:28.563  INFO 19812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-22 11:15:28.564  INFO 19812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-22 11:15:28.608  INFO 19812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:28.609  INFO 19812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:28.677  INFO 19812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:28.827  INFO 19812 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-07-22 11:15:28.866 ERROR 19812 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-9990"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chic.dockerspringbootdemo.DockerSpringbootDemoApplication.main(DockerSpringbootDemoApplication.java:10)
+
+2019-07-22 11:15:28.867 ERROR 19812 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-9990]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9990]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.chic.dockerspringbootdemo.DockerSpringbootDemoApplication.main(DockerSpringbootDemoApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+
+2019-07-22 11:15:28.878  INFO 19812 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-22 11:15:28.898  INFO 19812 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-07-22 11:15:28.903 ERROR 19812 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9990 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9990, or configure this application to listen on another port.
+
+2019-07-22 11:15:28.904  INFO 19812 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e9131d5: startup date [Mon Jul 22 11:15:25 CST 2019]; root of context hierarchy
+2019-07-22 11:15:28.906  INFO 19812 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-07-22 11:15:47.149  INFO 14000 --- [main] c.c.d.DockerSpringbootDemoApplication    : Starting DockerSpringbootDemoApplication on LAPTOP-441HS878 with PID 14000 (C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo\target\classes started by ChicUniqueKing in C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo)
+2019-07-22 11:15:47.153  INFO 14000 --- [main] c.c.d.DockerSpringbootDemoApplication    : No active profile set, falling back to default profiles: default
+2019-07-22 11:15:47.290  INFO 14000 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e9131d5: startup date [Mon Jul 22 11:15:47 CST 2019]; root of context hierarchy
+2019-07-22 11:15:48.916  INFO 14000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9990 (http)
+2019-07-22 11:15:48.929  INFO 14000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-22 11:15:48.931  INFO 14000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-07-22 11:15:49.112  INFO 14000 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-22 11:15:49.112  INFO 14000 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1824 ms
+2019-07-22 11:15:49.288  INFO 14000 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-22 11:15:49.299  INFO 14000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-22 11:15:49.301  INFO 14000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-22 11:15:49.303  INFO 14000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-22 11:15:49.305  INFO 14000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-22 11:15:49.644  INFO 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e9131d5: startup date [Mon Jul 22 11:15:47 CST 2019]; root of context hierarchy
+2019-07-22 11:15:49.736  INFO 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/docker]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.dockerTest()
+2019-07-22 11:15:49.739  INFO 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.testLogstash()
+2019-07-22 11:15:49.743  INFO 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-22 11:15:49.746  INFO 14000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-22 11:15:49.791  INFO 14000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:49.792  INFO 14000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:49.844  INFO 14000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:15:50.100  INFO 14000 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-07-22 11:15:50.179  INFO 14000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9990 (http)
+2019-07-22 11:15:50.185  INFO 14000 --- [main] c.c.d.DockerSpringbootDemoApplication    : Started DockerSpringbootDemoApplication in 3.669 seconds (JVM running for 4.218)
+2019-07-22 11:16:07.546  INFO 1012 --- [main] c.d.DockerSpringbootDemoApplicationTests : Starting DockerSpringbootDemoApplicationTests on LAPTOP-441HS878 with PID 1012 (started by ChicUniqueKing in C:\Users\ChicUniqueKing\Downloads\springboot_zip\docker-springboot-demo)
+2019-07-22 11:16:07.548  INFO 1012 --- [main] c.d.DockerSpringbootDemoApplicationTests : No active profile set, falling back to default profiles: default
+2019-07-22 11:16:07.655  INFO 1012 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 11:16:07 CST 2019]; root of context hierarchy
+2019-07-22 11:16:09.414  INFO 1012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 11:16:07 CST 2019]; root of context hierarchy
+2019-07-22 11:16:09.535  INFO 1012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.testLogstash()
+2019-07-22 11:16:09.539  INFO 1012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/docker]}" onto public java.lang.String com.chic.dockerspringbootdemo.controller.DokcerAutoDeployTestController.dockerTest()
+2019-07-22 11:16:09.551  INFO 1012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-22 11:16:09.552  INFO 1012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-22 11:16:09.667  INFO 1012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:16:09.668  INFO 1012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:16:09.726  INFO 1012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-22 11:16:09.913  INFO 1012 --- [main] c.d.DockerSpringbootDemoApplicationTests : Started DockerSpringbootDemoApplicationTests in 3.033 seconds (JVM running for 4.175)
+2019-07-22 11:16:10.101  INFO 1012 --- [Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@68034211: startup date [Mon Jul 22 11:16:07 CST 2019]; root of context hierarchy
